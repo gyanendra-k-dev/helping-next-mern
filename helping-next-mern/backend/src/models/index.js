@@ -1,0 +1,20 @@
+// Registers every model (needed for validator "exists"/"unique" rules and populate).
+module.exports = {
+  User: require("./User"),
+  ActivityLog: require("./ActivityLog"),
+  Project: require("./Project"),
+  Beneficiary: require("./Beneficiary"),
+  BlogPost: require("./BlogPost"),
+  Campaign: require("./Campaign"),
+  ContactMessage: require("./ContactMessage"),
+  DocumentFile: require("./DocumentFile"),
+  Donation: require("./Donation"),
+  Event: require("./Event"),
+  EventRegistration: require("./EventRegistration"),
+  GalleryItem: require("./GalleryItem"),
+  Setting: require("./Setting"),
+  Testimonial: require("./Testimonial"),
+  UserNotification: require("./UserNotification"),
+  VolunteerApplication: require("./VolunteerApplication"),
+  PasswordResetToken: require("./PasswordResetToken"),
+};
